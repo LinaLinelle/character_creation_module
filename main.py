@@ -39,7 +39,7 @@ def special(char_name: str, char_class: str) -> str:
 
 def start_training(char_name: str, char_class: str) -> str:
     """
-    Приветствует игрока, описывает возможные действия,
+    Приветствует игрока, описывает возможные действия.
     предлагает выполнить одно из действий.
     """
     if char_class == 'warrior':
@@ -66,7 +66,7 @@ def start_training(char_name: str, char_class: str) -> str:
 
 
 def choice_char_class() -> str:
-    """Выбор класса и его описание"""
+    """Выбор класса и его описание."""
     approve_choice: str = None
     char_class: str = None
     while approve_choice != 'y':
